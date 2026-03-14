@@ -1,59 +1,111 @@
+"use client"
+
+import BackButton from "@/components/BackButton"
+
 export default function ProblemsPage() {
   return (
     <main className="max-w-6xl mx-auto px-10 py-16">
 
-      <h1 className="text-4xl font-bold mb-10">
+      <BackButton />
+
+      <h1 className="text-5xl font-bold mb-12">
         Practice Problems
       </h1>
 
-      <div className="space-y-6">
+      <p className="text-gray-400 mb-12 max-w-3xl">
+        These problems are curated for students preparing for competitive
+        programming contests and ICPC. Practice regularly on platforms like
+        Codeforces, LeetCode and AtCoder to improve algorithmic thinking
+        and problem solving speed.
+      </p>
 
-        <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+      {/* BEGINNER */}
 
-          <h2 className="text-xl font-semibold mb-2">
-            Beginner
-          </h2>
+      <section className="bg-gray-900 p-8 rounded-xl border border-gray-800 mb-10">
 
-          <ul className="text-gray-400 list-disc ml-5">
-            <li>Two Sum</li>
-            <li>Binary Search</li>
-            <li>Valid Parentheses</li>
-          </ul>
+        <h2 className="text-2xl font-semibold mb-4">
+          Beginner Problems
+        </h2>
 
-        </div>
+        <p className="text-gray-400 mb-4">
+          Focus on understanding basic data structures and simple algorithms.
+        </p>
+
+        <ul className="list-disc ml-6 text-gray-400 space-y-2">
+          <li>Two Sum</li>
+          <li>Valid Parentheses</li>
+          <li>Binary Search</li>
+          <li>Merge Sorted Array</li>
+          <li>Maximum Subarray</li>
+          <li>Best Time to Buy and Sell Stock</li>
+          <li>Contains Duplicate</li>
+          <li>Move Zeroes</li>
+        </ul>
+
+        <p className="text-gray-500 mt-4">
+          Recommended platforms: Codeforces Div 3, LeetCode Easy
+        </p>
+
+      </section>
 
 
-        <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+      {/* INTERMEDIATE */}
 
-          <h2 className="text-xl font-semibold mb-2">
-            Intermediate
-          </h2>
+      <section className="bg-gray-900 p-8 rounded-xl border border-gray-800 mb-10">
 
-          <ul className="text-gray-400 list-disc ml-5">
-            <li>Longest Substring Without Repeating</li>
-            <li>Graph BFS</li>
-            <li>Shortest Path</li>
-          </ul>
+        <h2 className="text-2xl font-semibold mb-4">
+          Intermediate Problems
+        </h2>
 
-        </div>
+        <p className="text-gray-400 mb-4">
+          These problems introduce common competitive programming techniques.
+        </p>
+
+        <ul className="list-disc ml-6 text-gray-400 space-y-2">
+          <li>Longest Substring Without Repeating Characters</li>
+          <li>Container With Most Water</li>
+          <li>Product of Array Except Self</li>
+          <li>3Sum</li>
+          <li>Subarray Sum Equals K</li>
+          <li>Longest Consecutive Sequence</li>
+          <li>Top K Frequent Elements</li>
+        </ul>
+
+        <p className="text-gray-500 mt-4">
+          Recommended platforms: Codeforces Div 2 A/B, LeetCode Medium
+        </p>
+
+      </section>
 
 
-        <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+      {/* ADVANCED */}
 
-          <h2 className="text-xl font-semibold mb-2">
-            Advanced
-          </h2>
+      <section className="bg-gray-900 p-8 rounded-xl border border-gray-800">
 
-          <ul className="text-gray-400 list-disc ml-5">
-            <li>Segment Tree</li>
-            <li>Maximum Flow</li>
-            <li>Dynamic Programming Optimization</li>
-          </ul>
+        <h2 className="text-2xl font-semibold mb-4">
+          Advanced Problems
+        </h2>
 
-        </div>
+        <p className="text-gray-400 mb-4">
+          Advanced algorithmic challenges commonly seen in ICPC contests.
+        </p>
 
-      </div>
+        <ul className="list-disc ml-6 text-gray-400 space-y-2">
+          <li>Dijkstra Shortest Path</li>
+          <li>Longest Increasing Subsequence</li>
+          <li>Segment Tree Range Query</li>
+          <li>Minimum Spanning Tree</li>
+          <li>Network Flow</li>
+          <li>Tree Diameter</li>
+          <li>Heavy Light Decomposition</li>
+        </ul>
+
+        <p className="text-gray-500 mt-4">
+          Recommended platforms: Codeforces Div 2 C/D, AtCoder contests
+        </p>
+
+      </section>
 
     </main>
-  );
+  )
 }

@@ -1,11 +1,15 @@
 "use client"
 
 import { useState } from "react"
+import BackButton from "@/components/BackButton"
+
+<BackButton />
 
 type CFUser = {
   handle: string
   rating?: number
   maxRating?: number
+  rank?: string
 }
 
 export default function Dashboard() {
@@ -25,25 +29,57 @@ export default function Dashboard() {
       setData(json.result[0])
 
     } catch (error) {
-      console.error("Error fetching Codeforces data:", error)
+      console.error(error)
     }
   }
 
   return (
 
-    <main className="max-w-6xl mx-auto px-8 py-16">
+    <main className="max-w-7xl mx-auto px-8 py-16">
 
-      <h1 className="text-5xl font-bold mb-10">
+      {/* TITLE */}
+
+      <h1 className="text-5xl font-bold mb-12">
         ICPC Dashboard
       </h1>
 
-      <div className="bg-gray-900 p-8 rounded-xl border border-gray-800 mb-12">
+
+      {/* STATS */}
+
+      <section className="grid md:grid-cols-4 gap-6 mb-16">
+
+        <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+          <p className="text-gray-400">Members</p>
+          <h3 className="text-3xl font-bold">120+</h3>
+        </div>
+
+        <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+          <p className="text-gray-400">Active Coders</p>
+          <h3 className="text-3xl font-bold">60+</h3>
+        </div>
+
+        <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+          <p className="text-gray-400">ICPC Teams</p>
+          <h3 className="text-3xl font-bold">15</h3>
+        </div>
+
+        <div className="bg-gray-900 p-6 rounded-xl border border-gray-800">
+          <p className="text-gray-400">Weekly Problems</p>
+          <h3 className="text-3xl font-bold">5</h3>
+        </div>
+
+      </section>
+
+
+      {/* CODEFORCES TRACKER */}
+
+      <section className="bg-gray-900 p-8 rounded-xl border border-gray-800 mb-16">
 
         <h2 className="text-2xl font-semibold mb-4">
-          Track Codeforces Handle
+          Codeforces Tracker
         </h2>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 mb-6">
 
           <input
             placeholder="Enter Codeforces handle"
@@ -61,9 +97,10 @@ export default function Dashboard() {
 
         </div>
 
+
         {data && (
 
-          <div className="mt-8 grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-4 gap-6">
 
             <div className="bg-black p-6 rounded-lg">
               <p className="text-gray-400">Handle</p>
@@ -84,53 +121,70 @@ export default function Dashboard() {
               </h3>
             </div>
 
+            <div className="bg-black p-6 rounded-lg">
+              <p className="text-gray-400">Rank</p>
+              <h3 className="text-xl font-semibold">
+                {data.rank ?? "Unrated"}
+              </h3>
+            </div>
+
           </div>
 
         )}
 
-      </div>
+      </section>
 
-      <div className="grid md:grid-cols-3 gap-8">
 
-        <div className="bg-gray-900 p-8 rounded-xl border border-gray-800">
+      {/* LEADERBOARD */}
 
-          <h2 className="text-xl font-semibold mb-2">
-            Weekly Problems
-          </h2>
+      <section className="bg-gray-900 p-8 rounded-xl border border-gray-800 mb-16">
 
-          <p className="text-gray-400">
-            Solve curated ICPC style problems every week.
-          </p>
+        <h2 className="text-2xl font-semibold mb-6">
+          Club Leaderboard
+        </h2>
 
-        </div>
+        <div className="space-y-4">
 
-        <div className="bg-gray-900 p-8 rounded-xl border border-gray-800">
+          <div className="flex justify-between bg-black p-4 rounded-lg">
+            <span>1. Vivek</span>
+            <span>1650</span>
+          </div>
 
-          <h2 className="text-xl font-semibold mb-2">
-            Leaderboard
-          </h2>
+          <div className="flex justify-between bg-black p-4 rounded-lg">
+            <span>2. Rahul</span>
+            <span>1520</span>
+          </div>
 
-          <p className="text-gray-400">
-            Track top performing teams in club contests.
-          </p>
-
-        </div>
-
-        <div className="bg-gray-900 p-8 rounded-xl border border-gray-800">
-
-          <h2 className="text-xl font-semibold mb-2">
-            Team Stats
-          </h2>
-
-          <p className="text-gray-400">
-            See registered teams and their performance.
-          </p>
+          <div className="flex justify-between bg-black p-4 rounded-lg">
+            <span>3. Ananya</span>
+            <span>1490</span>
+          </div>
 
         </div>
 
-      </div>
+      </section>
+
+
+      {/* WEEKLY PROBLEMS */}
+
+      <section className="bg-gray-900 p-8 rounded-xl border border-gray-800">
+
+        <h2 className="text-2xl font-semibold mb-6">
+          Weekly Problems
+        </h2>
+
+        <ul className="space-y-3 text-gray-300">
+
+          <li>• Binary Search Variations</li>
+          <li>• Two Pointers Technique</li>
+          <li>• Graph BFS Problem</li>
+          <li>• Dynamic Programming Basics</li>
+          <li>• Greedy Scheduling</li>
+
+        </ul>
+
+      </section>
 
     </main>
-
   )
 }
