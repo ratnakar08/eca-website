@@ -17,7 +17,7 @@
     {
       "name": "Bhavitha",
       "role": "General Secretary",
-      "image": "/team/member3.jpg",
+      "image": "/team/Bhavitha.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
@@ -38,7 +38,7 @@
     {
       "name": "Sathwik",
       "role": "Design Lead",
-      "image": "/team/member6.jpg",
+      "image": "/team/Satwik.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
@@ -66,109 +66,116 @@
       "github": "https://github.com"
     },
     {
-      "name": "Member B",
-      "role": "DSA Mentor",
-      "image": "/team/member10.jpg",
+      "name": "Vikash",
+      "role": "Tech Team",
+      "image": "/team/Vikash.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
     {
-      "name": "Member C",
-      "role": "Competitive Programming",
-      "image": "/team/member11.jpg",
+      "name": "Goutham",
+      "role": "Tech Team",
+      "image": "/team/Goutham.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
     {
-      "name": "Member D",
-      "role": "Competitive Programming",
-      "image": "/team/member11.jpg",
+      "name": "Bharath",
+      "role": "Tech Team",
+      "image": "/team/Bharath.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
     {
-      "name": "Member E",
-      "role": "Competitive Programming",
-      "image": "/team/member11.jpg",
+      "name": "Abhishek",
+      "role": "Tech Team",
+      "image": "/team/Abhishek.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
     {
-      "name": "Member F",
-      "role": "Competitive Programming",
-      "image": "/team/member11.jpg",
+      "name": "Shiva Sai",
+      "role": "Tech Team",
+      "image": "/team/ShivaSai.jpeg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
     {
-      "name": "Member G",
-      "role": "Competitive Programming",
-      "image": "/team/member11.jpg",
+      "name": "S.Varshith",
+      "role": "Tech Team",
+      "image": "/team/Varshith.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
     {
-      "name": "Member H",
-      "role": "Competitive Programming",
-      "image": "/team/member11.jpg",
+      "name": "Smaran",
+      "role": "Tech Team",
+      "image": "/team/saismaran.jpeg",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    },
+    {
+      "name": "Johan",
+      "role": "Tech Team",
+      "image": "/team/Johan.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     }
   ],
   "nontech": [
     {
-      "name": "Member 1",
-      "role": "Marketing",
+      "name": "Sanhith",
+      "role": "Publicity Team",
       "image": "/team/member12.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
     {
-      "name": "Member 2",
-      "role": "Content",
-      "image": "/team/member13.jpg",
+      "name": "C.Vaishanavi",
+      "role": "Publicity Team",
+      "image": "/team/Vaishnavi.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
     {
-      "name": "Member 3",
-      "role": "Operations",
+      "name": "Kotesh Varma",
+      "role": "Designing Team",
+      "image": "/team/KoteshVarma.jpg",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    },
+    {
+      "name": "Rishik",
+      "role": "Designing Team",
       "image": "/team/member14.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
     {
-      "name": "Member 4",
-      "role": "Operations",
+      "name": "M.Mythri",
+      "role": "Organizing Team",
+      "image": "/team/Mythri.jpg",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    },
+    {
+      "name": "Mokshith",
+      "role": "Organizing Team",
+      "image": "/team/Mokshith.png",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com"
+    },
+    {
+      "name": "S.Lalith Chaaran",
+      "role": "Organizing Team",
       "image": "/team/member14.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
     {
-      "name": "Member 5",
-      "role": "Operations",
-      "image": "/team/member14.jpg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Member 6",
-      "role": "Operations",
-      "image": "/team/member14.jpg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Member 7",
-      "role": "Operations",
-      "image": "/team/member14.jpg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Member 8",
-      "role": "Operations",
-      "image": "/team/member14.jpg",
+      "name": "Sai Sripad",
+      "role": "Documentation Team",
+      "image": "/team/sripaad.jpeg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     }
