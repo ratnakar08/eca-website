@@ -24,20 +24,19 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-md bg-black/70 border-b border-gray-800">
+    <nav className="sticky top-0 z-50 backdrop-blur-xl bg-black/40 border-b border-white/10">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
-        {/* Logo → Redirects to Home */}
-        <Link
-          href="/"
-          className="flex items-center gap-3 cursor-pointer hover:scale-105 transition"
-        >
+        {/* Logo */}
+        <Link href="/" className="flex items-center gap-3 group">
           <img
             src="/ECA.jpeg"
             alt="ECA Logo"
-            className="w-10 h-10 rounded-full object-cover"
+            className="w-10 h-10 rounded-full object-cover border border-white/20 group-hover:scale-110 transition"
           />
-          <span className="text-xl font-bold text-white">ECA</span>
+          <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            ECA
+          </span>
         </Link>
 
         {/* Desktop Links */}
@@ -47,55 +46,61 @@ export default function Navbar() {
             <Link
               key={idx}
               href={link.href}
-              className="hover:text-blue-500 transition relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-blue-500 after:transition-all hover:after:w-full"
+              className="relative hover:text-white transition"
             >
               {link.name}
+
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-500 transition-all group-hover:w-full"></span>
             </Link>
           ))}
 
           {/* ICPC Dropdown */}
           <div className="relative group">
 
-            <Link
-              href="/icpc"
-              className="flex items-center gap-1 hover:text-blue-500 transition cursor-pointer"
-            >
+            <div className="flex items-center gap-1 cursor-pointer hover:text-white transition">
               ICPC <ChevronDown size={16} />
-            </Link>
+            </div>
 
-            <div className="absolute left-0 top-8 opacity-0 group-hover:opacity-100 scale-95 group-hover:scale-100 transition-all duration-200 bg-black border border-gray-800 rounded-lg shadow-lg w-44 py-2">
+            <div className="absolute top-8 left-0 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-200">
 
-              {icpcLinks.map((item, i) => (
-                <Link
-                  key={i}
-                  href={item.href}
-                  className="block px-4 py-2 hover:bg-gray-900"
-                >
-                  {item.name}
-                </Link>
-              ))}
+              <div className="bg-black/90 backdrop-blur-lg border border-white/10 rounded-xl shadow-xl w-44 py-2">
+
+                {icpcLinks.map((item, i) => (
+                  <Link
+                    key={i}
+                    href={item.href}
+                    className="block px-4 py-2 hover:bg-white/10 transition"
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+
+              </div>
 
             </div>
+
           </div>
 
-          <Link
-            href="/contact"
-            className="hover:text-blue-500 transition relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-blue-500 after:transition-all hover:after:w-full"
-          >
+          <Link href="/contact" className="hover:text-white transition">
             Contact
           </Link>
 
-          {/* Dark Mode Toggle */}
+          {/* Dark mode toggle */}
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className="ml-4 text-white"
+            className="p-2 rounded-full hover:bg-white/10 transition"
           >
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
           </button>
 
+          {/* Join Button */}
+          <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-5 py-2 rounded-lg hover:scale-105 transition shadow-lg">
+            Join ECA
+          </button>
+
         </div>
 
-        {/* Mobile Hamburger */}
+        {/* Mobile menu button */}
         <div className="md:hidden flex items-center">
           <button onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? (
@@ -110,25 +115,25 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-black text-gray-300 flex flex-col gap-2 px-6 py-4 border-t border-gray-800">
+        <div className="md:hidden bg-black/95 backdrop-blur-xl text-gray-300 flex flex-col gap-2 px-6 py-4 border-t border-white/10">
 
           {navLinks.map((link, idx) => (
             <Link
               key={idx}
               href={link.href}
-              className="py-2 hover:text-blue-500 transition"
+              className="py-2 hover:text-white transition"
               onClick={() => setMenuOpen(false)}
             >
               {link.name}
             </Link>
           ))}
 
-          {/* Mobile ICPC Dropdown */}
+          {/* Mobile ICPC dropdown */}
           <div>
 
             <button
               onClick={() => setIcpcOpen(!icpcOpen)}
-              className="flex justify-between items-center w-full py-2 hover:text-blue-500"
+              className="flex justify-between items-center w-full py-2 hover:text-white"
             >
               ICPC
               <ChevronDown
@@ -144,7 +149,7 @@ export default function Navbar() {
                   <Link
                     key={i}
                     href={item.href}
-                    className="py-2 hover:text-blue-500"
+                    className="py-2 hover:text-white"
                     onClick={() => setMenuOpen(false)}
                   >
                     {item.name}
@@ -158,20 +163,18 @@ export default function Navbar() {
 
           <Link
             href="/contact"
-            className="py-2 hover:text-blue-500"
+            className="py-2 hover:text-white"
             onClick={() => setMenuOpen(false)}
           >
             Contact
           </Link>
 
-          {/* Join Button */}
-          <button className="mt-4 bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">
+          <button className="mt-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white px-5 py-2 rounded-lg">
             Join ECA
           </button>
 
         </div>
       )}
-
     </nav>
   );
 }
