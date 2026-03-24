@@ -60,13 +60,13 @@ export default function ContactHub() {
 
   return (
     <main className="w-full px-6 md:px-12 lg:px-20 xl:px-32 py-20 lg:py-28 mx-auto min-h-screen relative overflow-hidden bg-white dark:bg-[#0a0a0a]">
-      
+
       {/* Background decoration */}
       <div className="absolute top-[20%] right-[-10%] w-[50%] h-[50%] bg-blue-100/30 dark:bg-blue-900/10 rounded-[100%] blur-[120px] pointer-events-none -z-10" />
       <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-100/30 dark:bg-purple-900/10 rounded-[100%] blur-[120px] pointer-events-none -z-10" />
 
       <section className="text-center mb-24">
-        <motion.h1 
+        <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           className="text-[clamp(2.5rem,6vw,4.5rem)] md:text-6xl font-extrabold text-gray-900 dark:text-white tracking-tight"
@@ -74,7 +74,7 @@ export default function ContactHub() {
           Join the <span className="text-slate-500 dark:text-slate-400 font-serif italic">Community</span>
         </motion.h1>
 
-        <motion.p 
+        <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
@@ -84,7 +84,7 @@ export default function ContactHub() {
         </motion.p>
       </section>
 
-      <motion.div 
+      <motion.div
         variants={containerVariants}
         initial="hidden"
         whileInView="show"
@@ -92,16 +92,16 @@ export default function ContactHub() {
         className="grid md:grid-cols-2 gap-6 lg:gap-10 max-w-5xl mx-auto mb-20"
       >
         {socials.map((social) => (
-          <motion.a 
+          <motion.a
             key={social.name}
             variants={itemVariants}
-            href={social.href} 
-            target="_blank" 
+            href={social.href}
+            target="_blank"
             rel="noreferrer"
             className="group relative bg-gray-50/80 dark:bg-[#0f0f0f] border border-gray-200 dark:border-white/5 p-10 rounded-[2rem] hover:-translate-y-2 hover:shadow-2xl dark:shadow-none transition-all duration-300 flex flex-col items-start cursor-pointer overflow-hidden"
           >
             <div className={`absolute inset-0 bg-gradient-to-br ${social.color} to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
-            
+
             <div className="flex justify-between w-full items-start mb-8 relative z-10">
               <div className={`w-16 h-16 flex items-center justify-center bg-white dark:bg-black rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 ${social.textClass} group-hover:scale-110 transition-transform duration-500`}>
                 {social.icon}
@@ -120,7 +120,7 @@ export default function ContactHub() {
       </motion.div>
 
       {/* Official Email Contact */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
