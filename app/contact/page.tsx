@@ -24,7 +24,7 @@ export default function ContactHub() {
       name: "WhatsApp",
       description: "Join our primary announcement group.",
       icon: <FaWhatsapp size={40} />,
-      href: "https://chat.whatsapp.com/",
+      href: "https://chat.whatsapp.com/EL9FEyMwsAI5Vv0C6CJO3f?mode=gi_t",
       color: "from-green-500/10",
       textClass: "text-green-500",
       bgHover: "group-hover:bg-green-500",
@@ -33,7 +33,7 @@ export default function ContactHub() {
       name: "Discord",
       description: "Hangout, ask coding doubts, and team up.",
       icon: <FaDiscord size={40} />,
-      href: "https://discord.gg/",
+      href: "https://discord.gg/MQVFuKbfRp",
       color: "from-indigo-500/10",
       textClass: "text-indigo-500",
       bgHover: "group-hover:bg-indigo-500",
@@ -42,8 +42,7 @@ export default function ContactHub() {
       name: "LinkedIn",
       description: "Connect with ECA alumni and professionals.",
       icon: <FaLinkedin size={40} />,
-      href: "https://www.linkedin.com/",
-      color: "from-blue-500/10",
+      href: "https://www.linkedin.com/company/emerging-computers-arena-snist",
       textClass: "text-blue-500",
       bgHover: "group-hover:bg-blue-600",
     },
@@ -51,7 +50,7 @@ export default function ContactHub() {
       name: "Instagram",
       description: "Check out event reels & behind the scenes.",
       icon: <FaInstagram size={40} />,
-      href: "https://www.instagram.com/",
+      href: "https://www.instagram.com/ecasnist//",
       color: "from-pink-500/10",
       textClass: "text-pink-500",
       bgHover: "group-hover:bg-pink-600",
@@ -137,7 +136,7 @@ export default function ContactHub() {
           </div>
         </div>
         <a href="mailto:contact@eca.edu" className="px-8 py-4 bg-white dark:bg-gray-900 text-gray-900 dark:text-white font-bold rounded-full hover:scale-105 active:scale-95 transition-all w-full sm:w-auto text-center shadow-lg">
-          contact@eca.edu
+          ecaclub@sreenidhi.edu.in
         </a>
       </motion.div>
 

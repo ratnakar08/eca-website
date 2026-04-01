@@ -18,7 +18,10 @@ export default function Home() {
 
   const today = new Date();
   const upcomingEvents: Event[] = (eventsData.events as Event[]).filter(
-    (event) => new Date(event.date) >= today
+    (event) => {
+      const d = new Date(event.date);
+      return isNaN(d.getTime()) || d >= today;
+    }
   ).slice(0, 3);
 
   const itemVariants: any = {

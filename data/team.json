@@ -4,8 +4,8 @@
       "name": "K Ratnakar",
       "role": "President",
       "image": "/team/member1.jpeg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "linkedin": "https://www.linkedin.com/in/kota-ratnakar",
+      "github": "https://github.com/ratnakar08"
     },
     {
       "name": "N Vivek",
@@ -26,35 +26,35 @@
       "role": "Technical Lead",
       "image": "/team/charan.jpeg",
       "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "github": "https://github.com/Akshayp47"
     },
     {
       "name": "Akshay",
       "role": "Organising Lead",
       "image": "/team/member5.jpeg",
-      "linkedin": "https://linkedin.com",
+      "linkedin": "https://www.linkedin.com/in/akshay-potay-36716a315",
       "github": "https://github.com"
     },
     {
       "name": "Sathwik",
       "role": "Design Lead",
       "image": "/team/Satwik.jpg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "linkedin": "https://www.linkedin.com/in/singarapu-satwik-5b5b87294",
+      "github": "https://github.com/satwik86"
     },
     {
       "name": "Charith",
       "role": "Publicity Lead",
       "image": "/team/cherry.jpeg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "linkedin": "https://www.linkedin.com/in/charith-koppula-71b0152ba",
+      "github": "https://github.com/CharithTech"
     },
     {
       "name": "Madhumathi",
       "role": "Documentation Lead",
       "image": "/team/madhu.jpeg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "linkedin": "https://www.linkedin.com/in/madhumathi-kali-8064902a0",
+      "github": "https://github.com/Madhumathi28"
     }
   ],
   "technical": [
@@ -62,85 +62,78 @@
       "name": "Navya Shree",
       "role": "Tech Team",
       "image": "/team/member9.jpeg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "linkedin": "https://www.linkedin.com/in/navya-shree-ageeru-5a59852b9",
+      "github": "https://github.com/navyashree2309"
     },
     {
       "name": "Vikash",
       "role": "Tech Team",
       "image": "/team/Vikash.jpg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "linkedin": "https://www.linkedin.com/in/vikash-alapati-a40ab92b9",
+      "github": "https://github.com/vikash-1005"
     },
     {
       "name": "Goutham",
       "role": "Tech Team",
       "image": "/team/Goutham.jpg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "linkedin": "https://www.linkedin.com/in/goutham-reddy-06mar2005",
+      "github": "https://github.com/GouthamReddy05"
     },
     {
       "name": "Bharath",
       "role": "Tech Team",
-      "image": "/team/Bharath.jpg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Abhishek",
-      "role": "Tech Team",
-      "image": "/team/Abhishek.jpg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "image": "/team/Bharath.jpeg",
+      "linkedin": "https://www.linkedin.com/in/veeraboina-bharath-7149772b9",
+      "github": "https://github.com/BharathVeeraboina"
     },
     {
       "name": "Shiva Sai",
       "role": "Tech Team",
       "image": "/team/ShivaSai.jpeg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "S.Varshith",
-      "role": "Tech Team",
-      "image": "/team/Varshith.jpg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Smaran",
-      "role": "Tech Team",
-      "image": "/team/saismaran.jpeg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "linkedin": "https://www.linkedin.com/in/shiva-sai-goud-sayabgari-45096528b",
+      "github": "https://github.com/Shivasai0105"
     },
     {
       "name": "Johan",
       "role": "Tech Team",
       "image": "/team/Johan.jpg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "linkedin": "https://www.linkedin.com/in/johandhaneja",
+      "github": "https://github.com/Johan621"
+    },
+    {
+      "name": "Abhishek",
+      "role": "Tech Team",
+      "image": "/team/Abhishek.jpeg",
+      "linkedin": "https://www.linkedin.com/in/art465",
+      "github": "https://github.com/Zartex-the-art"
+    },
+    {
+      "name": "S.Varshith",
+      "role": "Tech Team",
+      "image": "/team/Varshith.jpg",
+      "linkedin": "https://www.linkedin.com/in/varshithreddysingi",
+      "github": "https://github.com/varshith7rdy"
+    },
+    {
+      "name": "Smaran",
+      "role": "Tech Team",
+      "image": "/team/saismaran.jpeg",
+      "linkedin": "https://www.linkedin.com/in/sai-smaran-vishwanath-ba1632300",
+      "github": "https://github.com/smaran7577"
     }
   ],
   "nontech": [
     {
-      "name": "Sanhith",
-      "role": "Publicity Team",
-      "image": "",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
-    },
-    {
       "name": "C.Vaishanavi",
       "role": "Publicity Team",
       "image": "/team/Vaishnavi.jpg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "linkedin": "https://www.linkedin.com/in/vaishnavi-goud-chevula-0b8159237",
+      "github": "https://github.com/HarryPotter4585"
     },
     {
-      "name": "Kotesh Varma",
-      "role": "Designing Team",
-      "image": "/team/KoteshVarma.jpg",
+      "name": "S.Lalith Chaaran",
+      "role": "Organizing Team",
+      "image": "/team/lalith.jpeg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
@@ -155,6 +148,27 @@
       "name": "M.Mythri",
       "role": "Organizing Team",
       "image": "/team/Mythri.jpg",
+      "linkedin": "https://www.linkedin.com/in/mythri-musligari-b932b73b1",
+      "github": "https://github.com/Mythri"
+    },
+    {
+      "name": "Sanhith",
+      "role": "Publicity Team",
+      "image": "",
+      "linkedin": "https://share.google/tt2iKZ9lytOh5cJEd",
+      "github": "https://github.com/sanhithk"
+    },
+    {
+      "name": "Sai Sripad",
+      "role": "Documentation Team",
+      "image": "/team/sripaad.jpeg",
+      "linkedin": "https://www.linkedin.com/in/saisripaad-valiveru-551217352",
+      "github": "https://github.com/sripaadvaliveru"
+    },
+    {
+      "name": "Kotesh Varma",
+      "role": "Designing Team",
+      "image": "/team/KoteshVarma.jpg",
       "linkedin": "https://linkedin.com",
       "github": "https://github.com"
     },
@@ -162,22 +176,8 @@
       "name": "Mokshith",
       "role": "Organizing Team",
       "image": "/team/Mokshith.png",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "S.Lalith Chaaran",
-      "role": "Organizing Team",
-      "image": "/team/lalith.jpeg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Sai Sripad",
-      "role": "Documentation Team",
-      "image": "/team/sripaad.jpeg",
-      "linkedin": "https://linkedin.com",
-      "github": "https://github.com"
+      "linkedin": "https://www.linkedin.com/in/satya-m-51549b17a",
+      "github": "https://github.com/mokshith-kmsL"
     }
   ]
 }

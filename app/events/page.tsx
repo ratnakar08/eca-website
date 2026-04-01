@@ -13,11 +13,17 @@ export default function Events() {
 
   // Handle parsing failures gracefully based on data
   const upcomingEvents: Event[] = (eventsData.events as Event[]).filter(
-    (event) => new Date(event.date) >= today
+    (event) => {
+      const d = new Date(event.date);
+      return isNaN(d.getTime()) || d >= today;
+    }
   );
 
   const pastEvents: Event[] = (eventsData.events as Event[]).filter(
-    (event) => new Date(event.date) < today
+    (event) => {
+      const d = new Date(event.date);
+      return !isNaN(d.getTime()) && d < today;
+    }
   );
 
   const currentEvents = activeTab === "upcoming" ? upcomingEvents : pastEvents;

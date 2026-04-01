@@ -8,20 +8,6 @@
       "image": "/events/event1.jpg"
     },
     {
-      "title": "DSA Bootcamp",
-      "date": "2026-08-10",
-      "location": "CSE Seminar Hall",
-      "description": "A complete training program on Data Structures and Algorithms.",
-      "image": "/events/event2.jpg"
-    },
-    {
-      "title": "Coding Contest",
-      "date": "2026-09-05",
-      "location": "Online",
-      "description": "A competitive programming contest designed to challenge algorithmic thinking.",
-      "image": "/events/event3.jpg"
-    },
-    {
       "title": "ECA Open Session 2026",
       "date": "2026-03-09",
       "location": "SNIST Auditorium",
@@ -48,6 +34,20 @@
       "location": "SNIST Auditorium",
       "description": "An introduction to Quantum Programming and quantum computing.",
       "image": "/events/event1.jpg"
+    },
+    {
+      "title": "Github Unlocked: Git Set Go",
+      "date": "2026-04-02",
+      "location": "BIO TECH SEMINAR HALL",
+      "description": "An introductory session on Git and GitHub designed to unlock your version control skills.",
+      "image": "/events/event1.jpg"
+    },
+    {
+      "title": "GeekWeek Stage 1",
+      "date": "To be announced",
+      "location": "Online",
+      "description": "Stage 1 of the GeekWeek online coding event.",
+      "image": "/events/event5.jpg"
     }
   ]
 }
